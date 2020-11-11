@@ -3,6 +3,14 @@ import "./App.css";
 
 class App extends PureComponent {
   render() {
+    const options = {
+      weekday: "short",
+      month: "short",
+      day: "2-digit",
+      hour: "2-digit",
+      minute: "2-digit",
+    };
+
     const currentDate = new Date();
     const firstDate = new Date(2020, 10, 11, 14, 20, 0); //Month is zero indexed
 
@@ -15,9 +23,13 @@ class App extends PureComponent {
       <div className="App">
         <header className="App-header">
           <p>
-            Next Bronjahm at
+            Next{" "}
+            <a href="https://www.wowhead.com/npc=174058/bronjahm">Bronjahm</a>{" "}
+            at
             <br />
-            {nextDate.toLocaleString()}
+            {nextDate.toLocaleString("en-US", options)}
+            <br />
+            <div className={"coords"}>(70.6, 38.6)</div>
           </p>
         </header>
       </div>
