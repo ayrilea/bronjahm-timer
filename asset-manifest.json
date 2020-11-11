@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/bronjahm-timer/static/css/main.a574a57c.chunk.css",
+    "main.js": "/bronjahm-timer/static/js/main.ee93902d.chunk.js",
+    "main.js.map": "/bronjahm-timer/static/js/main.ee93902d.chunk.js.map",
+    "runtime-main.js": "/bronjahm-timer/static/js/runtime-main.93c3a73a.js",
+    "runtime-main.js.map": "/bronjahm-timer/static/js/runtime-main.93c3a73a.js.map",
+    "static/js/2.015a80b7.chunk.js": "/bronjahm-timer/static/js/2.015a80b7.chunk.js",
+    "static/js/2.015a80b7.chunk.js.map": "/bronjahm-timer/static/js/2.015a80b7.chunk.js.map",
+    "static/js/3.fb2ae4ae.chunk.js": "/bronjahm-timer/static/js/3.fb2ae4ae.chunk.js",
+    "static/js/3.fb2ae4ae.chunk.js.map": "/bronjahm-timer/static/js/3.fb2ae4ae.chunk.js.map",
+    "index.html": "/bronjahm-timer/index.html",
+    "static/css/main.a574a57c.chunk.css.map": "/bronjahm-timer/static/css/main.a574a57c.chunk.css.map",
+    "static/js/2.015a80b7.chunk.js.LICENSE.txt": "/bronjahm-timer/static/js/2.015a80b7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.93c3a73a.js",
+    "static/js/2.015a80b7.chunk.js",
+    "static/css/main.a574a57c.chunk.css",
+    "static/js/main.ee93902d.chunk.js"
+  ]
+}
