@@ -13,13 +13,20 @@ class App extends PureComponent {
 
     const currentDate = new Date();
     const firstDate = new Date(2020, 10, 11, 14, 20, 0); //Month is zero indexed
+    const shadowlandsDate = new Date(2020, 10, 24, 10, 0, 0);
 
     let nextDate = firstDate;
     while (nextDate.getTime() < currentDate.getTime()) {
       nextDate.setTime(nextDate.getTime() + (6 * 60 + 40) * 60 * 1000);
     }
 
-    return (
+    return shadowlandsDate.getTime() < currentDate.getTime() ? (
+      <div className="App">
+        <header className="App-header">
+          <p>Go play Shadowlands!</p>
+        </header>
+      </div>
+    ) : (
       <div className="App">
         <header className="App-header">
           <p>
